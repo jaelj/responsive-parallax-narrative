@@ -1,76 +1,70 @@
+<!-- Code "skeleton" taken from Pure CSS Parallax Scrolling by Keith Clark -->
+
+
 <!doctype html>
 <html class="no-js" lang="en">
-
 <head>
   <meta charset="utf-8">
-  <title>Sous Vide</title>
+  <title>Andy's Magical Adventure</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
-
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
 <div id="title" class="slide header">
-  <!-- content -->
   <header>
-    <h1>Responsive Parallax Narrative</h1>
+    <h1>Andy's Magical Adventure</h1>
   </header>
 </div>
- <!--  <main> -->
   <div id="slide1" class="slide">
+    <img src="img/andy.png" alt="Andy">
     <div class="title">
-      <h1>Slide 1</h1>
-<!--   <section data-aos="flip-right"> --><p>There once was a young man named Andy. He was tall and fit and loved adventures. One day he decided he wanted to explore somewhere new and unheard of before, the Magical Enchanted Forrest. He set off for the mountains.</p>
-</div>
-</div>
-<div id="slide2" class="slide">
+      <p class="mainp">There once was a young man named Andy. He was tall and fit and loved adventures. One day he decided he wanted to explore somewhere new that was unheard of before, the Magical Enchanted Forrest. He immediately got into his car and set off for the mountains.</p>
+    </div>
+  </div>
+  <div id="slide2" class="slide">
     <div class="title">
-  <p class="mainp">Upon arrival, the mountains seemed like normal mountains from the outside. It was much quieter and the trees were thick but all the same. It was as though the mountains did not want anyone to know their secrets that there was something more here. ...But Andy knew. He had heard of this legendary forrest from his grandfather who had been told by his dad who was told by his dad and it keeps going on for many a generations. </p>
-</div>
-</div>
-<div id="slide3" class="slide">
+     <p class="mainp">He had arrived. From the outside the mountains seemed normal. However, it was much quieter than most places he'd explored and the trees were thick and all the same. It was as though the mountains did not want anyone to know their secrets that there was something more here. ...But Andy knew something great was out there just waiting to be found. He had heard of this legendary forrest from his grandfather who had been told by his dad who was told by his dad which keeps going on for many generations. </p>
+   </div>
+  </div>
+  <div id="slide3" class="slide">
     <div class="title">
-  <p>Andy started walking forward and with one deep breath stepped one foot forward into the dark forrest. He could not believe what he was seeing. There was nothing around. Andy thought for a second he must've gotten the location wrong and gone to the incorrect mountain. That thought was short lasting. Looking around the forrest Andy spottet out of the corner of his eye what appeared to be a multicolor fairy, flying quickly from tree to sky.</p>
-</div>
-</div>
-<div id="slide4" class="slide">
+      <p class="mainp">Andy started walking forward and with one deep breath stepped one foot into the dark forrest. He could not believe what he was seeing. There was nothing around. Andy thought for a second he must've gotten the location wrong and gone to the incorrect mountain. However, that thought was short lasting. Looking around the forrest Andy spotted out of the corner of his eye what appeared to be a multicolor fairy, flying quickly from a tree to the sky.</p>
+    </div>
+    <img class="fairy" src="img/fairy.png" alt="fairy">
+  </div>
+  <div id="slide4" class="slide">
     <div class="title">
-  <p class="mainp">He was finally here, he could not believe his eyes. Soon out of the shadows appeared more magical animals. There was a unicorn prancing around him, a pegasis was flying through the sky and water was being moved through the air, possibly because of a wizard.</p>
-</div>
-</div>
-<div id="slide5" class="slide">
+      <p class="mainp">He was finally here, he could not believe his eyes. Soon out of the shadows appeared more magical animals. There was a unicorn prancing around him, a pegasis was flying through the sky and water was being moved through the air, possibly because of a wizard. This was all too surreal for him. He never wanted to leave this place and all its incredible beauty.</p>
+    </div>
+  </div>
+  <div id="slide5" class="slide">
     <div class="title">
- <!--  <img src="img/forrest.jpeg" alt="forrest" />
-  <img src="img/magic-moon.png" alt="fairy on moon" /> -->
-<p class="mainp">Andy continued his adventure through the forrest. With each step forward he could feel more and more of the magic that surrounded him. The magical space was engulfing him. Would he ever be the same again, Andy thought not. After what fell like forever Andy found himself at the top of a massive lake that waterfalled off a cliff. Andy thought this would make for a great resting place to enjoy the beauty and take a break to eat.</p>
-</div>
-</div>
-<!-- </main> -->
-<!-- </div> --><!-- end container -->  
-  <!-- javascript -->
+      <p class="mainp">Andy continued his adventure through the forrest. With each step forward he could feel more and more of the magic that surrounded him. The magical space was engulfing him. Would he ever be the same again after this experience, Andy decided he surely would not. After what felt like forever Andy found himself at the top of a waterfall that fell off a cliff and down toward a chrystal clear lake. Andy thought this would make for a great resting place to enjoy the beauty, take a break to eat and take in all that he had just experienced.
+      <br>
+      <br> 
+      ... After a while Andy decided it was time to go home.</p>
+    </div>
+    <img src="img/waterfall_lake.png" class="lake" alt="waterfall lake">
+  </div>
+  <div id="endtitle" class="slide header">
+    <h1>The End</h1>
+  </div>
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!-- Google Analytics-->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-161446555-1', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-161446555-1', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
-
 </html>
